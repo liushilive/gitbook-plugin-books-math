@@ -1,3 +1,9 @@
+try {
+  var books = require("books-cli");
+} catch (error) {
+  console.warn(error);
+}
+
 module.exports = {
   blocks: {
     // 3
